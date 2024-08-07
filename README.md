@@ -36,5 +36,5 @@ This is a web application for booking flight tickets, developed using Django, HT
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/flight-booking-app.git
+   git clone https://github.com/abhayg951/flight_booking.git
    cd flight-booking-app
