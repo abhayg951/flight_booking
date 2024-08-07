@@ -39,54 +39,38 @@ This is a web application for booking flight tickets, developed using Django, HT
    git clone https://github.com/abhayg951/flight_booking.git
    cd flight-booking-app
 
-Create and activate a virtual environment:
-Windows
+2. Create and activate a virtual environment:
+  ### Windows
+   python -m venv venv
+   venv\Scripts\activate
 
-sh
+  ### Linux and macOS
+    python3 -m venv venv
+    source venv/bin/activate
 
-python -m venv venv
-venv\Scripts\activate
+3. Install the required packages:
 
-Linux and macOS
+  pip install -r requirements.txt
 
-sh
+4. Apply the migrations:
 
-python3 -m venv venv
-source venv/bin/activate
+  python manage.py migrate
 
-Install the required packages:
+5. Create a superuser for admin access:
 
-sh
+  python manage.py createsuperuser
 
-pip install -r requirements.txt
-
-Apply the migrations:
-
-sh
-
-python manage.py migrate
-
-Create a superuser for admin access:
-
-sh
-
-python manage.py createsuperuser
-
-Run the development server:
-
-sh
+6. Run the development server:
 
     python manage.py runserver
 
-Usage
+7. Usage
 
     Open your web browser and go to http://127.0.0.1:8000/.
-    For admin functionalities, log in with the following credentials on the Django admin dashboard at http://127.0.0.1:8000/admin:
-        Username: admin
-        Password: admin123
+    For admin functionalities, log in with the admin credentials on the Django admin dashboard at http://127.0.0.1:8000/admin:
     For user functionalities, sign up for a new user account or log in with an existing user account.
 
-Technologies Used
+8. Technologies Used
 
     Django
     HTML
