@@ -9,9 +9,8 @@ This is a web application for booking flight tickets, developed using Django, HT
   - [Admin Features](#admin-features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
-- [License](#license)
+
 
 ## Features
 
@@ -75,6 +74,4 @@ This is a web application for booking flight tickets, developed using Django, HT
 
     Django
     HTML
-    CSS
-    JavaScript
     Bootstrap
