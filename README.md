@@ -40,25 +40,26 @@ This is a web application for booking flight tickets, developed using Django, HT
    cd flight-booking-app
 
 2. Create and activate a virtual environment:
-  ### Windows
-   python -m venv venv
-   venv\Scripts\activate
+    
+    #### Windows
+    python -m venv venv
+    venv\Scripts\activate
 
-  ### Linux and macOS
+    #### Linux and macOS
     python3 -m venv venv
     source venv/bin/activate
 
 3. Install the required packages:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Apply the migrations:
 
-  python manage.py migrate
+    python manage.py migrate
 
 5. Create a superuser for admin access:
 
-  python manage.py createsuperuser
+    python manage.py createsuperuser
 
 6. Run the development server:
 
