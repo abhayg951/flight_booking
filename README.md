@@ -38,3 +38,8 @@ This is a web application for booking flight tickets, developed using Django, HT
    ```sh
    git clone https://github.com/abhayg951/flight_booking.git
    cd flight-booking-app
+
+2. Create and activate a virtual environment:
+    ### Windows
+        ``` python -m venv venv
+            venv\Scripts\activate
