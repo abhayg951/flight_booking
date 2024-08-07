@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron text-center" style="margin-top: 10px;">
+    {% if user.is_authenticated %}
+    <h1 class="display-4">Hi {{user.name}}, <br> Welcome to Flight Booking System</h1>
+    <p class="lead">Book your flights easily and quickly.</p>
+    <a class="btn btn-primary btn-lg" href="{% url "search_flights" %}" role="button">Search Flights</a>
+    {% else %}
+    <h1 class="display-4">Welcome to Flight Booking System</h1>
+    <p class="lead">Book your flights easily and quickly.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Search Flights</a>
+    {% endif %}
+</div>
+{% endblock %}
