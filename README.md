@@ -41,5 +41,6 @@ This is a web application for booking flight tickets, developed using Django, HT
 
 2. Create and activate a virtual environment:
     ### Windows
-        ``` python -m venv venv
-            venv\Scripts\activate
+   ```sh
+        python -m venv venv
+        venv\Scripts\activate
